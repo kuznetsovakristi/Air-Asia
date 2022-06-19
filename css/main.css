@@ -23,9 +23,7 @@ ul {
   margin: 0;
 }
 
-ul li {
-  list-style: none;
-}
+ul li {list-style: none;}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -33,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper--bg {
-  background: url('../img/elephant.jpg') top center, url('../img/human.jpg') bottom 190px right;
+  background: url('../img/elephant.jpg') top center, url('../img/human.jpg') bottom 165px right;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -70,14 +68,18 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
+.contacts__dropdown-title:hover {
+  text-decoration: underline ;
+}
+
 .menu__item {
 display: inline-block;
 vertical-align: middle;
 margin-right: 50px;
 }
 
-.contacts__dropdown-title--active {
-  text-decoration-line: line-through;
+.menu__item--active .menu__link {
+  color: #F5170E;
 }
 
 .menu__item:last-child {
@@ -88,6 +90,11 @@ margin-right: 50px;
   font-size: 14px;
   text-decoration: none;
 }
+
+.menu__link:hover {
+  color: #F5170E;
+}
+
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
@@ -177,6 +184,15 @@ margin-right: 50px;
   margin-right: 12px;
 }
 
+.tours__title::after {
+  content: url(../img/flame.png);
+  display: inline-block;
+  width: 21px;
+  height: 28px; 
+  margin-left: 12px;
+}
+
+
 .tours__item {
   min-height: 449px; 
   display: inline-block;
@@ -193,34 +209,34 @@ margin-right: 50px;
 
 .tours__header {
   min-height: 144px;
-  }
+}
 
   .tours__img {
     border-radius: 5px;
     overflow: hidden;
-  }
+}
   
   .tours__content {
     padding: 24px 22px;
-  }
+}
 
   .tours__name {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 24px;
-  }
+}
 
 .tours__desc-block {
   display: inline-block;
   vertical-align: top;
-  margin-right: 25px;
+  margin-right: 28px;
 }
 .tours__desc-block:last-child {
   margin-right: 0;
 }
 
 .tours__desc-img {
-  margin-right: 7px;
+  margin-right: 10px;
   vertical-align: middle;
 }
 
@@ -254,7 +270,6 @@ display: inline-block;
   margin-bottom: 51px;
 }
 
-
 .news__img {
   display: block;
   width: 100%;
@@ -267,13 +282,16 @@ display: inline-block;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 25px 31px;
-  min-height: 163px;
+  padding: 24px 31px;
 }
 
 .news__date {
   font-size: 14px;
   margin-bottom: 14px;
+}
+
+.news__text {
+  min-height: 49px;
 }
 
 .news__name {
@@ -310,17 +328,17 @@ display: inline-block;
 
 .paginator__link {
   display: block;
-  width: 32px;
   height: 32px;
   border-radius: 50%;
   position: relative;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+ padding-inline: 11px;
 }
 
 .about {
-  padding: 147px 0 45px 0;
+  padding: 147px 0 78px 0;
 }
 
 .about__content {
@@ -357,7 +375,6 @@ display: inline-block;
   height: 505px;
   background-image: url('../img/gates.jpg');
   border-radius: 5px;
-  margin-bottom: 53px;
  }
 
  .title {
@@ -369,7 +386,6 @@ display: inline-block;
  .about__title--color--black {
   color: #000;
  }
-
 
 .footer-container__content {
   border-top: 1px solid #fff;
@@ -409,28 +425,21 @@ display: inline-block;
   font-size: 26px; 
 }
 
-
-
-
+.socials__list {
+  font-size: 0;
+  position: absolute;
+  top: 26px;
+  right: 264px;
+}
 
 .socials__item {
+  font-size: 16px;
   display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
 }
 
-.socials {
-  display: block;
-  position: absolute;
-  top: 46px;
-  margin-left: 702px;
+.socials__item:not(:first-child) {
+  margin-left: 10px;
 }
-
-.socials__item:last-child {
-  margin-right: 0;
-}
-
-
 
 .socials__link {
   display: block;
@@ -443,9 +452,8 @@ display: inline-block;
   opacity: 0;
 }
 
-.socials__link::after, 
-.socials__link::before
- {
+.socials__link::after,
+.socials__link::before {
   content: '';
   display: block;
   width: 100%;
@@ -457,34 +465,36 @@ display: inline-block;
   top: 0;
   left: 0;
   transition: .5s;
- }
+}
 
- .socials__link--telegram::after {
-  background-image: url('/img/telegram.png');
- }
- .socials__link--telegram::before {
-  background-image: url('/img/tx.png')
- }
+.socials__link--telegram::after {
+  background-image: url('../img/tg.png');
+}
 
+.socials__link--telegram::before {
+  background-image: url('../img/tg-hover.png');
+}
 
- .socials__link--vk::after {
-  background-image: url('/img/vk.png');
- }
- .socials__link--vk::before {
-  background-image: url('/img/vk-hover.png')
- }
+.socials__link--vk::after {
+  background-image: url('../img/vk.png');
+}
 
+.socials__link--vk::before {
+  background-image: url('../img/vk-hover.png');
+}
 
- .socials__link--face::after {
-  background-image: url('/img/face.png');
- }
- .socials__link--face::before {
-  background-image: url('/img/face-hover.png')
- }
+.socials__link--fb::after {
+  background-image: url('../img/fb.png');
+}
 
- .socials__link--in::after {
-  background-image: url('/img/in.png');
- }
- .socials__link--in::before {
-  background-image: url('/img/in-hover.png')
- }
+.socials__link--fb::before {
+  background-image: url('../img/fb-hover.png');
+}
+
+.socials__link--in::after {
+  background-image: url('../img/in.png');
+}
+
+.socials__link--in::before {
+  background-image: url('../img/in-hover.png');
+}
