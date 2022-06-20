@@ -409,19 +409,19 @@ display: inline-block;
   left: 165px;
 }
 
-.contacts__footer {
+.contacts {
   position: absolute;
-  top: 45px;
+  top: 24px;
   right: 0px;
   font-style: normal;
   text-align: right;
 }
 
-.contacts__footer-text {
+.contacts__text {
   font-size: 11px;
 }
 
-.contacts__footer-phone {
+.contacts__phone {
   font-size: 26px; 
 }
 
