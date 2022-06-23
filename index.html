@@ -4,41 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1100, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <title>air-asia</title>
+  <link rel="stylesheet" href="./css/normalize.css">
 </head>
 
 <body>
   <div class="wrapper--bg">
-    <section class="page">
-      <div class="container">
+    <div class="container">
+      <div class="wrapper__content">
 
         <header class="header">
-          <div class="container">
-            <a href="/" class="logo">
-              <img src="img/logo.png" alt="air asia logo" class="logo__pic">
-            </a>
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item menu__item--active">
-                  <a href="#" class="menu__link">Главная</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link menu__link--color--red">Услуги</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link menu__link--color-red">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-            <adress class="contacts">
+          <div class="container header__conteiner">
+            <div class="header__left">
+              <a href="/" class="logo">
+                <img src="img/logo.png" alt="air asia logo" class="logo__pic">
+              </a>
+              <div class="header__menu">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item menu__item--active">
+                      <a href="#" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link menu__link--color--red">Услуги</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link menu__link--color-red">Отзывы</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          <div class="header__right">
+            <adress class="contacts contacts__conteiner">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
               <div class="contacts__dropdown-title contacts__dropdown-title--text-decoration--underline">График работы
               </div>
             </adress>
           </div>
+        </div>
         </header>
 
         <section class="hero">
@@ -54,7 +61,7 @@
         <section class="tours">
           <div class="container">
             <h2 class="tours__title title">Горящие туры</h2>
-            
+
             <ul class="tours__list">
               <li class="tours__item">
                 <div class="tours__header">
@@ -127,13 +134,15 @@
             <h2 class="news__title title">Новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
-                <img src="img/plain.jpg" alt="" class="news__img">
-                <div class="news__desc">
-                  <p class="news__date">Декабрь 2019</p>
-                  <h4 class="news__name">Дешевые путевки на Новый Год!</h4>
-                  <p class="news__text">Проведи новый год в Тайланде</p>
+                <div class="news__background">
+                  <img src="img/plain.jpg" alt="" class="news__img">
+                
+                  <div class="news__desc">
+                    <p class="news__date">Декабрь 2019</p>
+                    <h4 class="news__name">Дешевые путевки на Новый Год!</h4>
+                    <p class="news__text">Проведи новый год в Тайланде</p>
+                  </div>
                 </div>
-
               <li class="news__item">
                 <img src="img/surfer.jpg" alt="" class="news__img">
                 <div class="news__desc">
@@ -184,17 +193,19 @@
                 верстальщику, вебмастеру сгенерировать несколько абзацев более менее
                 осмысленного текста рыбы на русском языке, а начинающему оратору
                 отточить навык публичных выступлений в домашних условиях. </p>
-              <a href="" class="btn btn--red">подробнее</a>
+              <a href="" class="btn btn--color--ginger">подробнее</a>
             </div>
           </div>
         </section>
+      </div>
 
-        <footer class="footer-container">
-          <div class="container">
-            <div class="footer">
-              <a href="/" class="logo">
-                <img src="img/logo.png" alt="air asia logo" class="logo__pic">
-              </a>
+      <footer class="footer">
+        <div class="container footer__conteiner">
+          <div class="footer__left">
+            <a href="/" class="logo">
+              <img src="img/logo.png" alt="air asia logo" class="logo__pic">
+            </a>
+            <div class="footer__menu">
               <nav class="menu">
                 <ul class="menu__list">
                   <li class="menu__item menu__item--active">
@@ -208,32 +219,35 @@
                   </li>
                 </ul>
               </nav>
-              <div class="socials">
-                <ul class="socials__list">
-                  <li class="socials__item">
-                    <a href="" class="socials__link socials__link--telegram"></a>
-                  </li>
-                  <li class="socials__item">
-                    <a href="" class="socials__link socials__link--vk"></a>
-                  </li>
-                  <li class="socials__item">
-                    <a href="" class="socials__link socials__link--fb"></a>
-                  </li>
-                  <li class="socials__item">
-                    <a href="" class="socials__link socials__link--in"></a>
-                  </li>
-                </ul>
-              </div>
-              <adress class="contacts">
+            </div>
+           </div>
+           
+               <div class="footer__right">
+                <div class="socials socials__conteiner">
+                  <ul class="socials__list">
+                    <li class="socials__item">
+                      <a href="" class="socials__link socials__link--telegram"></a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link socials__link--vk"></a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link socials__link--fb"></a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link socials__link--in"></a>
+                    </li>
+                  </ul>
+                </div>
+                <adress class="contacts contacts__conteiner">
                 <div class="contacts__text">Бесплатный звонок по России</div>
                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              </adress>
-            </div>
-        </footer>
-
-      </div>
-    </section>
+                </div>
+                </adress>
+              </div>
+        </div>
+      </footer>
+    </div>
   </div>
 </body>
-
 </html>

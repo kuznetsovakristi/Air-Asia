@@ -1,0 +1,35 @@
+.paginator {
+  text-align: center;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator__title, .paginator__list {
+  display: flex;
+}
+
+.paginator__title {
+  margin-right: 24px;
+}
+
+.paginator__item {
+  display: flex;
+}
+
+.paginator__item--active .paginator__link {
+  background: #fff;
+  color: red;
+}
+
+.paginator__link {
+  display: block;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+ padding-inline: 11px;
+}

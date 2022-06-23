@@ -1,0 +1,92 @@
+.tours {
+  margin-bottom: 124px;
+}
+
+.tours__list {
+  display: flex;
+}
+
+.tours__desc {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.tours__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+  display: flex;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.tours__title::after {
+  content: url(/img/flame.png);
+  display: flex;
+  width: 21px;
+  height: 28px; 
+  margin-left: 12px;
+}
+
+.tours__item {
+  min-height: 449px; 
+  display: flex;
+  flex-direction: column;
+  margin-right: 27px;
+  width: calc(100% / 3 - 18px);
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+}
+
+.tours__item:last-child {
+  margin-right: 0;
+}
+
+.tours__header {
+  min-height: 144px;
+  display: flex;
+}
+
+  .tours__img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+  
+  .tours__content {
+    padding: 24px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+  .tours__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.tours__desc-block {
+  display: flex;
+  align-items: center;
+  vertical-align: top;
+  margin-right: 28px;
+}
+.tours__desc-block:last-child {
+  margin-right: 0;
+}
+
+.tours__desc-img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tours__desc-name {
+font-size: 16px;
+display: flex;
+align-items: center;
+}
+
+.tours__about {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
