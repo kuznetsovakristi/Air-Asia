@@ -21,7 +21,7 @@
 }
 
 .tours__title::after {
-  content: url(/img/flame.png);
+  content: url(../../img/flame.png);
   display: flex;
   width: 21px;
   height: 28px; 

@@ -7,7 +7,7 @@
  flex-direction: column;
   border-radius: 5px;
   max-width: 793px;
-  background-image: url("/img/mountains.jpg");
+  background-image: url("../../img/mountains.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -35,7 +35,7 @@
   display: flex;
   width: 490px;
   height: 505px;
-  background-image: url('/img/gates.jpg');
+  background-image: url('../../img/gates.jpg');
   border-radius: 5px;
  }
 

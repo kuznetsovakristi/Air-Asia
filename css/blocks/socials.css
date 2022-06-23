@@ -39,33 +39,33 @@
 }
 
 .socials__link--telegram::after {
-  background-image: url('/img/tg.png');
+  background-image: url('../../img/tg.png');
 }
 
 .socials__link--telegram::before {
-  background-image: url('/img/tg-hover.png');
+  background-image: url('../../img/tg-hover.png');
 }
 
 .socials__link--vk::after {
-  background-image: url('/img/vk.png');
+  background-image: url('../../img/vk.png');
 }
 
 .socials__link--vk::before {
-  background-image: url('/img/vk-hover.png');
+  background-image: url('../../img/vk-hover.png');
 }
 
 .socials__link--fb::after {
-  background-image: url('/img/fb.png');
+  background-image: url('../../img/fb.png');
 }
 
 .socials__link--fb::before {
-  background-image: url('/img/fb-hover.png');
+  background-image: url('../../img/fb-hover.png');
 }
 
 .socials__link--in::after {
-  background-image: url('/img/in.png');
+  background-image: url('../../img/in.png');
 }
 
 .socials__link--in::before {
-  background-image: url('/img/in-hover.png');
+  background-image: url('../../img/in-hover.png');
 }
