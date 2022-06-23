@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper--bg {
-  background: url('/img/elephant.jpg') top center, url('/img/human.jpg') bottom 165px right;
+  background: url('../../img/elephant.jpg') top center, url('../../img/human.jpg') bottom 165px right;
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
