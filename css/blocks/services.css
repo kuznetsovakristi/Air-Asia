@@ -2,7 +2,7 @@
   min-height: 412px;
   padding-bottom: 13px;
   display: flex;
-  background: url(../img/headline.jpg) top no-repeat;
+  background: url(../../img/headline.jpg) top no-repeat;
 }
 
 .top-line__container {
