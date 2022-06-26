@@ -16,11 +16,7 @@
   font-size: 11px;
 }
 
-.contacts__phone {
-  font-size: 26px; 
-}
-
-.contacts__phone {
+.contacts_phone {
   text-decoration: none;
   font-size: 26px;
 }

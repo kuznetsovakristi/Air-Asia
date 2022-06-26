@@ -6,7 +6,6 @@
 .hero__content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .hero__text-section {

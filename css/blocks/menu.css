@@ -3,7 +3,7 @@
 }
 
 .menu__item {
-margin-right: 50px;
+  margin-right: 50px;
 }
 
 .menu__item--active .menu__link {
