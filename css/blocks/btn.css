@@ -12,6 +12,7 @@
 
 .btn:hover {
   background-color: #7e0d0d;
+  transition: 1s;
 }
 
 
@@ -44,4 +45,5 @@
 
 .btn__red:hover {
   background-color: #7e0d0d;
+  transition: 1s;
 }
