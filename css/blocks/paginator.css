@@ -17,14 +17,20 @@
   display: flex;
 }
 
-.paginator__item--active .paginator__link {
+.paginator__item--active .paginator__link_white {
   background: #fff;
   color: red;
 }
 
+
+.paginator__link_red {
+  background: red;
+  color: #fff
+}
+
 .paginator__link {
   display: block;
-  height: 32px;
+
   border-radius: 50%;
   position: relative;
   text-decoration: none;

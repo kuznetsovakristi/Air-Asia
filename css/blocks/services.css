@@ -80,11 +80,6 @@
   margin-top: 64px;
 }
 
-.img {
-  display: block;
-  max-width: 100%;
-}
-
 .service__title {
   font-size: 36px;
   font-weight: bold;
@@ -94,9 +89,14 @@
 .service__content {
   display: flex;
   flex-direction: column;
-  margin-left: 58px;
-  min-width: 652px;
+  margin-left: 26px;
+  max-width: 625px
 }
+
+.service__img-elem {
+  margin-right: 27px;
+}
+
 
 .paginator--light {
   background: #fff;
