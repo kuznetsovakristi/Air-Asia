@@ -10,8 +10,21 @@
   align-self: flex-start;
 }
 
+.btn__align {
+  background: #F5170E;
+  border-radius: 34px;
+  padding: 18px 60px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+}
+
+
 .btn:hover {
   background-color: #7e0d0d;
+  transition: 1s;
 }
 
 
@@ -44,4 +57,10 @@
 
 .btn__red:hover {
   background-color: #7e0d0d;
+  transition: 1s;
+}
+
+.btn__align:hover {
+  background-color: #7e0d0d;
+  transition: 1s;
 }

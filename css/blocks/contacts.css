@@ -1,5 +1,6 @@
 .contacts {
   font-style: normal;
+  position: relative;
 }
 
 .contacts_conteiner {
@@ -23,4 +24,6 @@
 .contacts__dropdown-title {
   font-size: 13px;
   text-decoration: none;
+  position: relative;
+ display: inline-block;
 }

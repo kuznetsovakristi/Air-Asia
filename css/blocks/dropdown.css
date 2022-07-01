@@ -1,0 +1,57 @@
+.dropdown__window {
+  position: absolute;
+   background: #EDEDED;
+  border-radius: 5px;
+   padding: 17px 20px 18px 14px;
+   width: 160px;
+   top: 100%;
+   right: -9999px;
+   margin-top: 20px;
+   opacity: 0;
+   transition: opacity .9s;
+}
+
+.contacts__dropdown-title::before {
+  content: "";
+  display: block;
+  height: 10px;
+  left: 0;
+  right: 0;
+  top: 20px;
+  position: absolute;
+}
+
+.contacts__dropdown-title::after {
+  content: "";
+  border: 20px solid transparent;
+  border-bottom-color: #ededed;
+  border-top-width: 0px;
+  position: absolute;
+  top: 25px;
+  right: 33px;
+}
+
+.contacts__dropdown-title:hover .dropdown__window {
+   opacity: 1;
+   right: 0px;
+}
+
+.dropdown__work {
+font-size: 13px;
+font-weight: bold;
+color: black;
+}
+
+.dropdown__break {
+  font-size: 13px;
+font-weight: normal;
+color: black;
+}
+
+/*.triangle {
+  border: 20px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: blue;
+  padding: 30px 0 0 0;
+}*/

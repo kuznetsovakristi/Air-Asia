@@ -1,0 +1,19 @@
+.separator {
+  min-height: 363px;
+  color: #202020;
+  background: #E5C288 url('../../img/banner.jpg') right 50% bottom 110% no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 46%;
+  margin-right: 183px;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}

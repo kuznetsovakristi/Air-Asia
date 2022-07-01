@@ -38,3 +38,8 @@
   line-height: 32px;
  padding-inline: 11px;
 }
+
+.paginator__link:hover {
+  color: #F5170E;
+  transition: 1s;
+}

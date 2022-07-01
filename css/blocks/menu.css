@@ -8,6 +8,7 @@
 
 .menu__item--active .menu__link {
   color: #F5170E;
+  transition: 1s;
 }
 
 .menu__item:last-child {
