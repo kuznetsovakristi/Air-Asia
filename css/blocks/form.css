@@ -133,3 +133,7 @@
   padding: 9px 20px;
   transition: .5s;
 }
+
+.form__label {
+  position: relative;
+}
