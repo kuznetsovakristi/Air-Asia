@@ -1,7 +1,9 @@
 .contacts {
   font-style: normal;
-  position: relative;
+  position: relative; 
+  font-size: 26px;
 }
+
 
 .contacts_conteiner {
   display: flex;
