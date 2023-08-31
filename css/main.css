@@ -1484,6 +1484,7 @@ a.call:hover {
   -webkit-filter: brightness(100%);
           filter: brightness(100%);
   border: none;
+  cursor: pointer;
 }
 .player__play-btn:hover {
   -webkit-filter: brightness(70%);
@@ -1501,6 +1502,7 @@ a.call:hover {
   opacity: 1;
   visibility: visible;
   margin-right: 0;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .player__play-btn--main {
@@ -1582,6 +1584,7 @@ a.call:hover {
   position: relative;
   background-color: #7037A0;
   border-radius: 0.125rem;
+  cursor: pointer;
 }
 .player__line-handler {
   position: absolute;
@@ -1595,6 +1598,7 @@ a.call:hover {
           transform: translate(50%, -50%);
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  cursor: pointer;
 }
 .player__line-handler:hover {
   background-color: #fdfdfd;

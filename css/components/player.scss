@@ -36,6 +36,7 @@
     transition: 0.2s;
     filter: brightness(100%);
     border: none;
+    cursor: pointer;
     &:hover {
       filter: brightness(70%);
     }
@@ -50,6 +51,7 @@
       opacity: 1;
       visibility: visible;
       margin-right: 0;
+      cursor: pointer;
 
       @include laptops-md {
         width: rem(85px);
@@ -120,6 +122,7 @@
     position: relative;
     background-color: #7037A0;
     border-radius: rem(2px);
+    cursor: pointer;
   }
   &__line-handler {
     position: absolute;
@@ -131,6 +134,7 @@
     background-color: #7037A0;
     transform: translate(50%, -50%);
     transition: 0.2s;
+    cursor: pointer;
     &:hover {
       background-color: #fdfdfd;
     }
