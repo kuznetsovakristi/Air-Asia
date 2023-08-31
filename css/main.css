@@ -1546,6 +1546,7 @@ a.call:hover {
   background-color: white;
   height: 0.4375rem;
   border-radius: 0.125rem;
+  cursor: pointer;
 }
 .player__timeline {
   -webkit-box-flex: 1;
