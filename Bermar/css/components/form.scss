@@ -1,0 +1,13 @@
+.b24-form-btn {
+  background: var(--unnamed, linear-gradient(180deg, #231D37 0%, #231D37 5.73%, #231D37 11.46%, #231D37 21.88%, #231D37 35.05%, #231D37 38.66%, #231D37 47.16%, #4C1F72 100%));
+    border-radius: 0.1875rem;
+}
+.b24-form-btn:hover {
+  background: $hover!important;
+}
+.b24-window-close {
+  background: var(--unnamed, linear-gradient(180deg, #231D37 0%, #231D37 5.73%, #231D37 11.46%, #231D37 21.88%, #231D37 35.05%, #231D37 38.66%, #231D37 47.16%, #4C1F72 100%)); 
+}
+.b24-form-wrapper.b24-form-border-bottom {
+  border: none!important;
+}

@@ -1,0 +1,19 @@
+ul.banner-chip__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: rem(50px);
+  padding-bottom: rem(50px);
+}
+.container.container__chip {
+  max-width: 1920px;
+  background: var(--unnamed, linear-gradient(180deg, #231D37 0%, #231D37 5.73%, #231D37 11.46%, #231D37 21.88%, #231D37 35.05%, #231D37 38.66%, #231D37 47.16%, #4C1F72 100%));
+}
+li.banner-chip__item {
+  color: white;
+  max-width: rem(666px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

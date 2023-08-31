@@ -1,0 +1,65 @@
+.main-banner {
+  padding: 0 rem(50px);
+  margin-bottom: rem(100px);
+  margin-top: rem(150px);
+
+  @include laptops-sm {
+    margin-bottom: rem(50px);
+    padding: 0 rem(15px);
+  }}
+ul.main-banner__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+
+  @include laptops-md {
+    flex-direction: column;
+    padding-top: 30px;
+}}
+li.main-banner__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @include laptops-md {
+    align-items: center;
+}}
+h1.hero-title {
+  color: white;
+  border-radius: rem(3px);
+  background: #1B1B1B;
+  font-weight: 800;
+  font-size: rem(40px);
+  padding: rem(25px);
+  max-width: rem(646px);
+  margin-bottom: rem(15px);
+
+  @include tablets {
+    font-size: rem(30px); 
+    max-width: initial; 
+    text-align: center;
+  }
+    @include phones {
+      font-size: rem(23px); 
+      text-align: center;
+}}
+p.hero-title-desc {
+  font-weight: 900;
+  font-size: rem(33px);
+  line-height: 36px;
+
+  @include tablets {
+    font-size: rem(30px); 
+    text-align: center;
+}
+  @include phones {
+    font-size: rem(23px); 
+    line-height: rem(28px);
+    text-align: center;
+}}
+.button-btn {
+  margin-top: rem(50px);
+
+  @include phones {
+    margin-top: rem(30px);
+}}

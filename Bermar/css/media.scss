@@ -1,0 +1,39 @@
+@function rem($px) {
+  @return $px / $baseFontSize +0rem;
+}
+
+@mixin laptops {
+  @media screen and (max-width: $laptops) {
+    @content;
+  }
+}
+
+@mixin laptops-md {
+  @media screen and (max-width: $laptops-md) {
+    @content;
+  }
+}
+
+@mixin laptops-sm {
+  @media screen and (max-width: $laptops-sm) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin tablets-sm {
+  @media screen and (max-width: $tablets-sm) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width: $phones) {
+    @content;
+  }
+}
