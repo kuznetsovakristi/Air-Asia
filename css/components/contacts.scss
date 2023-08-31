@@ -1,0 +1,83 @@
+h2.title.title__center {
+  color: white;
+}
+.decs-block-title.decs-block-title__center {
+  align-items: center;
+}
+ul.block-contacts__list {
+  display: flex;
+  gap: rem(100px);
+  color: white;
+
+  @include laptops-sm {
+  gap: rem(50px);
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@include phones {
+flex-direction: column;
+}}
+li.block-contacts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: rem(20px);
+  max-width: rem(227px);
+  text-align: center;
+}
+.socials {
+  display: flex;
+  gap: rem(20px);
+}
+img.call {
+  max-width: rem(40px);
+}
+.container.container__block-contacts {
+  max-width: 1920px;
+  background: var(--unnamed, linear-gradient(180deg, #231D37 0%, #231D37 5.73%, #231D37 11.46%, #231D37 21.88%, #231D37 35.05%, #231D37 38.66%, #231D37 47.16%, #4C1F72 100%));
+  margin-bottom: 0;
+}
+.container.container__map {
+  padding: 0;
+  margin-bottom: 0;
+}
+.contacts {
+  font-style: normal;
+  position: relative; 
+  font-size: rem(18px);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contacts_conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contacts__dropdown-title:hover {
+  text-decoration: underline;
+}
+.contacts__text {
+  font-size: rem(11px);
+}
+.contacts__phone-header {
+  @include laptops-md {
+    display: none;
+      }
+}
+.contacts__dropdown-title {
+  font-size: rem(13px);
+  text-decoration: none;
+  position: relative;
+ display: inline-block;
+}
+.header__col--align-right {
+  display: flex;
+    align-items: center;
+}
+.contacts__phone:hover {
+  color: $hover;
+  transition: 1s;
+}

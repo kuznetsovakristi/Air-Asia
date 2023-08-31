@@ -1,0 +1,138 @@
+.decs-block-text {
+  max-width: rem(1270px);
+}
+.container.container__decs-block {
+  display: flex;
+  justify-content: center;
+}
+.player {
+  position: relative;
+  height: 100%;
+  &__controls,
+  &__splash {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  &__controls {
+    height: rem(40px);
+    bottom: rem(-30px);
+    z-index: 2;
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    padding: 0 rem(40px) 0 rem(40px);
+  }
+  &__splash {
+    height: 100%;
+    top: 0;
+    background: url("../img/video-splash.jpg") no-repeat center / cover;
+  }
+  &__play-btn {
+    background: url("../img/icons/play.svg") no-repeat center / cover;
+    width: rem(11px);
+    height: rem(16px);
+    margin-right: rem(29px);
+    transition: 0.2s;
+    filter: brightness(100%);
+    border: none;
+    &:hover {
+      filter: brightness(70%);
+    }
+    &--main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: rem(100px);
+      height: rem(145px);
+      opacity: 1;
+      visibility: visible;
+      margin-right: 0;
+
+      @include laptops-md {
+        width: rem(85px);
+        height: rem(125px); 
+      }   
+      @include laptops-sm {
+        width: rem(72px);
+        height: rem(105px); 
+      }  
+      @include tablets {
+        width: rem(57px);
+        height: rem(87px); 
+      }        
+      @include phones {
+        width: rem(45px);
+        height: rem(70px); 
+      }
+    }
+    &--pause {
+      background-image: url("../img/icons/pause.svg");
+      opacity: 0;
+      visibility: hidden;
+    }
+    &--pause:not(&--main) {
+      opacity: 1;
+      visibility: visible;
+    }}
+  &__display:hover + &__play-btn--pause,
+  &__play-btn--pause:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+  &__line {
+    position: relative;
+    background-color: $white;
+    height: rem(7px);
+    border-radius: rem(2px);
+  }
+
+  &__timeline {
+    flex: 1;
+    margin-right: rem(43px);
+  }
+  &__volume {
+    display: flex;
+    align-items: center;
+  }
+  &__volume-btn {
+
+    margin-right: rem(25px);
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  &__volume-icon {
+    width: rem(14px);
+    height: rem(20px);
+    fill: $hover;
+  }
+  &__volume-btn &__volume-icon:hover {
+    fill: $hover;
+  }
+  &__volume-line {
+    width: rem(58px);
+  }
+  &__current {
+    width: 0;
+    height: 100%;
+    position: relative;
+    background-color: #7037A0;
+    border-radius: rem(2px);
+  }
+  &__line-handler {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: rem(15px);
+    height: rem(15px);
+    border-radius: 50%;
+    background-color: #7037A0;
+    transform: translate(50%, -50%);
+    transition: 0.2s;
+    &:hover {
+      background-color: #fdfdfd;
+    }
+  }
+}

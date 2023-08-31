@@ -1,0 +1,23 @@
+.menu__list {
+  display: flex;
+}
+.header__menu {
+  @include laptops-md {
+    display: none;
+}}
+.menu__item {
+  margin-right: rem(20px);
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+  font-size: rem(18px);
+  font-weight: 500;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: $hover;
+  transition: .5s;
+  border-bottom: 1px solid $hover;
+}

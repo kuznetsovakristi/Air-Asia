@@ -1,0 +1,47 @@
+//normaliz
+@import "base/normalize.scss";
+
+$containerWidth: 1820px;
+$baseFontSize: 16px;
+
+//breakpoints
+$laptops: 1500px;
+$laptops-md: 1200px;
+$laptops-sm: 992px;
+$tablets: 768px;
+$tablets-sm: 576px;
+$phones: 480px;
+
+@import "media.scss";
+
+//collors
+$black: #181617;
+$white: #ffff;
+$hover: #7037A0;
+$color: var(--unnamed, linear-gradient(180deg, #231D37 0%, #231D37 5.73%, #231D37 11.46%, #231D37 21.88%, #231D37 35.05%, #231D37 38.66%, #231D37 47.16%, #4C1F72 100%));
+
+//z-indexes
+$z-fixed-menu: 100;
+
+//setups
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;display=swapp");
+
+
+//components
+@import "components/layout.scss";
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/menu.scss";
+@import "components/contacts.scss";
+@import "components/advantages.scss";
+@import "components/features.scss";
+@import "components/trade-in.scss";
+@import "components/footer.scss";
+@import "components/btn.scss";
+@import "components/icons.scss";
+@import "components/how.scss";
+@import "components/player.scss";
+@import "components/socials.scss";
+@import "components/screen-menu.scss";
+@import "components/chip.scss";
+@import "components/form.scss";
